@@ -1,5 +1,4 @@
 import { AppHeaderContainer } from './styles';
-import { FaChevronLeft } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import logo from '../../assets/logo.svg';
 import { IoPersonCircle } from "react-icons/io5";

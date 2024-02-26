@@ -4,8 +4,12 @@ import {
 } from "./styles";
 import homeimg from "../../assets/home-img.svg";
 import { ButtonInput } from "../Inputs/ButtonInput";
+import { useNavigate } from 'react-router-dom';
+
 
 export const  HomePage=()=> {
+  const navigate = useNavigate();
+
   const handleGoToBlog = () => {
 		navigate('/blog');
 	};
